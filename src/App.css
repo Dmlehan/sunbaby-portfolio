@@ -5,10 +5,10 @@
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* body {
+body {
     background: #050b2e; 
     color: white;
-} */
+}
 
 /* ================= NAVBAR ================= */
 
@@ -24,8 +24,9 @@
 }
 
 .logo {
-    width: 50px;
+    width: 100px;
     height: auto;
+    border-radius: 100%;
 }
 
 .nav ul {
