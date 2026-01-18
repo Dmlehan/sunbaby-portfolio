@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* body {
+    background: #050b2e; 
+    color: white;
+} */
+
+/* ================= NAVBAR ================= */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #06165f;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li:hover {
+    color: #00eaff;
+}
